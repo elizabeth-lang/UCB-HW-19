@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 header {
   background-color: #61371E;
@@ -8,6 +9,11 @@ header {
 header ul {
   float: right;
   color: #FFF3F0;
+}
+a {
+  color: #FFF3F0;
+  padding: 10px;
+  text-decoration: none;
 }
 .logo {
   width: 5%;
@@ -63,7 +69,7 @@ footer li {
 .flex-container {
   display: flex;
 }
-.mySkills {
+.skills {
   background-color: #B37961;
   padding: 100px 15px;
 }
@@ -96,7 +102,7 @@ h1 {
 .workBottom {
   grid-area: 'workBottom';
 }
-.workGrid {
+.work {
   background-color: #FFF3F0;
   padding: 100px 15px;
   display: grid;
@@ -123,7 +129,7 @@ h3 {
 
 
 @media only screen and (max-width: 600) {
-  #workGrid {
+  #work {
     grid-template-areas: 
     'workHeader workHeader workHeader workHeader'
     'imgColumn textColumn '

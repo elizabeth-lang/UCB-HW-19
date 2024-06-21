@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 .logo {
-  width: 5%;
+  width: 10%;
 }
 .me {
   width: 100%;
@@ -49,8 +49,10 @@ header p {
 button {
   padding: 15px;
   background-color: #FFF3F0;
+  border-color: #B37961;
   color: #61371E;
   font-size: 15px;
+  font-weight: 525;
   border-radius: 4px;
 }
 footer {
